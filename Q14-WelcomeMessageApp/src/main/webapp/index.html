@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome Form</title>
+    <style>
+        body {
+        	background-color : lightblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            margin: 0;
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="./welcome" method="GET">
+        <label for="name">Name:</label>
+        <input type="text" name="name" required>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
